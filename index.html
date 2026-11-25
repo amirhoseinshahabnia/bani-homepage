@@ -979,8 +979,8 @@ h1 { margin: 0; font-optical-sizing: auto; font-family: var(--type-display-sm-fo
 .why--soft { background: var(--color-surface-section-plum-soft); }
 .why-a-grid { display: grid; gap: var(--space-40); }
 .why-portrait-wrap { margin: 0; }
-/* One column (below breakpoint-lg): story first, then the photo; caption aligned with the text */
-@media (max-width: 1023px) { .why-portrait-wrap { order: 2; } .why .why-cap { text-align: left; } }
+/* One column (below breakpoint-lg): story first, then the photo */
+@media (max-width: 1023px) { .why-portrait-wrap { order: 2; } }
 .why-portrait { position: relative; border-radius: 50% 50% var(--radius-xl) var(--radius-xl) / 34% 34% var(--radius-xl) var(--radius-xl); overflow: hidden; background: var(--color-plum-100); box-shadow: var(--shadow-lg); }
 .why-photo { width: 100%; height: 100%; object-fit: cover; display: block; }
 .why-cap { margin-top: var(--space-16); font-family: var(--type-eyebrow-font-family); font-weight: var(--type-eyebrow-font-weight); font-size: var(--type-eyebrow-font-size); line-height: var(--type-eyebrow-line-height); letter-spacing: var(--type-eyebrow-letter-spacing); text-transform: uppercase; color: var(--color-text-eyebrow); text-align: center; }
